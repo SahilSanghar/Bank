@@ -17,7 +17,7 @@ const Hero = () => {
     };
 
     return (
-        <div className='absolute top-[420px] bg-white w-[520px] h-[500px] rounded-t-3xl text-center'>
+        <div className='absolute top-[370px] bg-white w-[520px] h-[500px] rounded-t-[40px] text-center'>
             {/* Product Section */}
             <div className='border-b-[1px] border-slate-300 py-4'>
                 <p className='text-left text-2xl py-3 ps-8'>Product</p>

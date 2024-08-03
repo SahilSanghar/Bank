@@ -12,8 +12,8 @@ const Options = () => {
     };
 
     return (
-        <div className='bg-neutral-100 h-[350px]'>
-            <ul className="flex justify-start items-center text-lg space-x-10 pt-4 pb-24 pl-8">
+        <div className='bg-neutral-100 h-[290px] w-[520px]'>
+            <ul className="flex justify-start items-center text-lg space-x-10 pt-1 pb-24 pl-8">
                 <li
                     className={`cursor-pointer ${selectedOption === 'Regular' ? 'text-blue-600' : 'text-gray-900'}`}
                     onClick={() => handleClick('Regular')}>
@@ -39,7 +39,7 @@ const Options = () => {
                     <hr className={`${selectedOption === 'Iceberg' ? 'border-blue-600' : 'border-transparent'} border-2 rounded-3xl mt-1`} />
                 </li>
             </ul>
-            <div className="bg-white absolute top-[200px] w-[480px] h-[180px] rounded-md grid grid-cols-2 gap-4 text-left mx-[20px]">
+            <div className="bg-white absolute top-[160px] w-[480px] h-[180px] rounded-md grid grid-cols-2 gap-4 text-left mx-[20px]">
                 <div className="">
                     <p className='text-xl py-5 ps-[25px]'>
                         Quantity

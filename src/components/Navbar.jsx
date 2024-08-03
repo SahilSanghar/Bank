@@ -3,11 +3,10 @@ import { BsThreeDotsVertical } from "react-icons/bs";
 import { useState } from "react";
 
 const Navbar = () => {
-    // Initialize with 'option1' to make NSE active by default
     const [selectedOption, setSelectedOption] = useState('option1');
 
     return (
-        <div className="bg-neutral-100 w-full p-5 flex justify-between items-center">
+        <div className="bg-neutral-100 w-[520px] p-5 flex justify-between items-center">
             <div>
                 <FaArrowLeftLong size={35} cursor='pointer' />
             </div>

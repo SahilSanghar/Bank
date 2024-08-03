@@ -4,7 +4,7 @@ import Options from "./components/Options";
 
 export default function App() {
   return (
-    <div className="mx-[500px]">
+    <div className="lg:mx-[500px]">
       <Navbar />
       <Options />
       <Hero />
